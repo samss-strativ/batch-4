@@ -5,7 +5,7 @@ const LeoMessi = () => {
     <div>
       <h2>Leo Messi</h2>
       <img
-      className="w-50"
+      className="w-25"
         src="https://hips.hearstapps.com/hmg-prod/images/lionel-messi-celebrates-after-their-sides-third-goal-by-news-photo-1686170172.jpg"
         alt="Leo messi"
       />
