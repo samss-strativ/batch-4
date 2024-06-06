@@ -6,6 +6,7 @@ import MyIdols from "./components/MyIdols";
 import KeanuReeves from "./components/KeanuReeves";
 import LeoMessi from "./components/LeoMessi";
 import Navbar from "./components/Navbar";
+import AllProducts from "./components/Products/AllProducts";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,9 +15,7 @@ function App() {
     <>
       <div>
         <Navbar/>
-        <MyIdols></MyIdols>
-        <KeanuReeves></KeanuReeves>
-        <LeoMessi/>
+        <AllProducts/>
       </div>
     </>
   );
